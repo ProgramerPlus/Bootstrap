@@ -1,0 +1,29 @@
+.bg-body-tertiary{
+    background-color:rgb(177, 198, 202) !important;
+}
+.nav-link{
+color:rgb(255, 0, 43)
+}
+.nav-link:hover{
+color:rgb(0, 0, 255);
+}
+
+h1{
+    text-align:center;
+    margin-top:15px;
+    color:aquamarine;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display:flex;
+    align-items:center;
+    font-size:25px;
+    color:rgb(82, 223, 82);
+}
