@@ -15,7 +15,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M473-80q-24 0-46-9t-39-26L184-320l30-31q16-16 37.5-21.5t42.5.5l66 19v-327q0-17 11.5-28.5T400-720q17 0 28.5 11.5T440-680v433l-97-27 102 102q5 5 12.5 8.5T473-160h167q33 0 56.5-23.5T720-240v-160q0-17 11.5-28.5T760-440q17 0 28.5 11.5T800-400v160q0 66-47 113T640-80H473Zm7-280v-160q0-17 11.5-28.5T520-560q17 0 28.5 11.5T560-520v160h-80Zm120 0v-120q0-17 11.5-28.5T640-520q17 0 28.5 11.5T680-480v120h-80ZM80-680q30-106 142-173t258-67q94 0 181 31t159 90v-81h60v200H680v-60h116q-66-58-147-89t-169-31q-118 0-208.5 48T143-680H80Zm500 400Z"/></svg></a>
+    <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M473-80q-24 0-46-9t-39-26L184-320l30-31q16-16 37.5-21.5t42.5.5l66 19v-327q0-17 11.5-28.5T400-720q17 0 28.5 11.5T440-680v433l-97-27 102 102q5 5 12.5 8.5T473-160h167q33 0 56.5-23.5T720-240v-160q0-17 11.5-28.5T760-440q17 0 28.5 11.5T800-400v160q0 66-47 113T640-80H473Zm7-280v-160q0-17 11.5-28.5T520-560q17 0 28.5 11.5T560-520v160h-80Zm120 0v-120q0-17 11.5-28.5T640-520q17 0 28.5 11.5T680-480v120h-80ZM80-680q30-106 142-173t258-67q94 0 181 31t159 90v-81h60v200H680v-60h116q-66-58-147-89t-169-31q-118 0-208.5 48T143-680H80Zm500 400Z"/></svg> Restaurante</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,6 +34,151 @@
     </div>
   </div>
 </nav>
+
+<main>
+
+  <div class="container text-center">
+
+ <div class="row">
+      <div class="col">
+       <h1 style="font-weight:bold; font-size:200%;">Cardápio</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+       <p>Comidas incríveis</p> 
+       <img src="img/feijoada.jpg" height="90%" width="90%"><br><br>
+      </div>
+      <div class="col">
+        <button style="background-color:red; border-color:red;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Especial do mês e bebidas do restaurante</button>
+
+        <div style="height:45%;" class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Especial do mês e bebidas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body small">         
+        <img style="margin:2%;" src="img/picanha.jpg" height="80%" alt=""> 
+     <img style="margin:2%;" src="img/laranja.jpg" height="80%" alt="">
+     <img style="margin:2%;" src="img/caju.png" height="80%" alt="">
+     <img style="margin:2%;" src="img/guarana.jpg" height="80%" alt="">
+<br><br>
+<p style="display: flex; justify-content: center; gap: 10%; flex-wrap: wrap;">
+  <span>Especial</span>
+  <span>-</span>
+  <span>Suco de laranja</span>
+  <span>-</span>
+  <span>Suco de cajú</span>
+  <span>-</span>
+  <span>Refrigerante</span>
+</p>
+
+<p style="display: flex; justify-content: center; gap: 10%; flex-wrap: wrap;">
+  <span>58,90 R$</span>
+  <span>-</span>
+  <span>300 ml 4,00 R$</span>
+  <span>-</span>
+  <span>300 ml 5,00 R$</span>
+  <span>-</span>
+  <span>300 ml 3,00 R$</span>
+</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+       <p style="font-weight:bold; font-size:120%;">Comida variada!</p>
+      </div>
+    </div>
+
+<!-- Primeira Linha -->
+<div class="row mb-4">
+  
+  <div class="col-md-4">
+    <div class="card" style="width: 100%;">
+      <img src="img/fraldinha.jpg" class="card-img-top" alt="Fraldinha">
+      <div class="card-body">
+        <p class="card-text">Fraldinha Assada</p>
+        Corte macio e suculento assado lentamente na brasa, servido com farofa artesanal.<br><br>
+R$ 68,90
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card" style="width: 100%;">
+      <img src="img/maminha.jpg" class="card-img-top" alt="Maminha">
+      <div class="card-body">
+        <p class="card-text">Maminha com ervas</p>
+        Maminha premium grelhada na churrasqueira a lenha com ervas.<br><br>
+R$ 59,90
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card" style="width: 100%;">
+      <img src="img/macarrao.jpg" class="card-img-top" alt="Macarrão">
+      <div class="card-body">
+        <p class="card-text">Macarrão ao Pesto</p>
+        Macarrão com carne moída e molho de tomate.<br><br>
+R$ 22,00
+      </div>
+    </div>
+  </div>
+
+</div> <!-- Fim da Primeira Linha -->
+
+<!-- Segunda Linha -->
+<div class="row mb-4">
+
+  <div class="col-md-4">
+    <div class="card" style="width: 100%;">
+      <img src="img/lasanha.jpg" class="card-img-top" alt="Lasanha">
+      <div class="card-body">
+        <p class="card-text">Lasanha à Bolonhesa</p>
+        Camadas generosas de massa artesanal, molho de tomate caseiro e muita mussarela.<br><br>
+R$ 48,50
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card" style="width: 100%;">
+      <img src="img/dobradinha.jpg" class="card-img-top" alt="Dobradinha">
+      <div class="card-body">
+        <p class="card-text">Dobradinha Especial</p>
+        Prato tradicional cozido com feijão branco, paio e temperos típicos da roça.<br><br>
+R$ 45,00
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card" style="width: 100%;">
+      <img src="img/mousse.jpg" class="card-img-top" alt="Mousse">
+      <div class="card-body">
+        <p class="card-text">Mousse de Maracujá</p>
+        Uma mousse com sementes de maracujá e natural<br><br>
+R$18,00
+      </div>
+    </div>
+  </div>
+
+</div> <!-- Fim da Segunda Linha -->
+
+    </div>
+
+</main>
+
+<footer class="text-center py-4 text-muted border-top mt-5">
+  <p>&copy; 2024 Restaurante - Todos os direitos reservados.</p>
+</footer>
 
 </body>
 </html>
